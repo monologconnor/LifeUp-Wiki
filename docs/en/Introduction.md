@@ -2,9 +2,26 @@
 
 > LifeUp, to upgrade your life.
 
-*LifeUp* is a gamification To-Do List (Tasks List) application with many interesting gamified features.
+![Icon](_media/icon.png ':size=6%')
 
+**LifeUp** is a gamified To-Do List (Tasks List) application which has integrated many well-designed interesting gaming-related features, aims to bring the *Role Playing element* into and inspirit your life.
 
+It's a no other To-Do List which does not only write and tick, LifeUp awards you with `Experience Point` and `Currency` by considering the importance of your completed task.
+  * With the certain `Exp. Pt`, the `Level` of your character's `Attribute` could be upgraded. 
+  * With the `Currency`, you could purchase pre-defined `Award Items` from the `Goods Store`.
+In additional, `Achievements` could be completed with certain conditions, to get more awards.
+
+Features like `Feelings`, `Community`, `Pomodoro` has built-in and more features are coming to LifeUp!
+
+> **LifeUp** is currently maintained by a tiny team which contains only 2 programmers and 1 tester, but we would make *100% effort* to process your feedback, keep the project in active and make LifeUp better with the whole community.
+
+---
+
+## Motivation
+
+![激励体系](./introduction/_media/readme/motivation.jpg ':size=100%')
+
+The `System of Motivation` was designed by the `Sense of Ceremony`
 
 ## Get Started
 Now available in Google Play as a paid application, which you can get it with one-time cost.
@@ -95,9 +112,9 @@ Most features of LifeUp can be used without network connections.
 
 ## Support & Help
 
-- Language: Please note that currently only **English, Turkish, Portuguese, Simplified Chinese and Tranditional Chinese** available. 
+- Language: Please note that currently only **English, Turkish, Portuguese, Simplified Chinese and Tranditional Chinese** are available. 
 As a Indie application, we can not afford the translation fee for more language. 
-However, everyone can contribute their translation.
+However, everyone can contribute with their translation.
 
 - Price: As the application continues to be updated and improved, and new features are added, the price may be adjusted accordingly. 
 

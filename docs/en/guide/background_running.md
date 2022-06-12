@@ -1,6 +1,18 @@
-# Run in background
+# Keep app alive
 
 ## Why
+
+### Compatibility configuration
+
+| Feature                                                      | Need keep the app alive?                  | Any other needed  permission?                                | Notes                                                        |
+| ------------------------------------------------------------ | ----------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Task reminder (system notification)                          | ✔️                                         | -                                                            | The default method, **need to configure the keepalive as follows** |
+| Task reminder (calendar event)                               | -                                         | need [Calendar Read/Write] permission                        | **Can be set in the app - [Settings] - [Tasks] - [Change Reminder System] options** |
+| Pomodoro timer end reminder                                  | ✔️                                         | -                                                            | **need to configure the keepalive as follows；**<br/>If it is not configured, there may be various phenomena such as not reminding, the countdown is frozen, etc. |
+| Positive timer                                               | -                                         | -                                                            | -                                                            |
+| App widget update                                            | ✔️<br/>（depending on the devices and OS） |                                                              | **need to configure the keepalive as follows；**<br/>If it is not configured, it may always display "Loading" or "All tasks have been completed" and other phenomena |
+| App widget finish count tasks/jump to in-app task detail page<br/>（non MIUI OS） | -                                         | -                                                            | -                                                            |
+| App widget finish count tasks/jump to in-app task detail page<br/>（MIUI OS） | -                                         | may need the MIUI specific [Display UI in background] permission? |                                                              |
 
 - Some OS will kill the pomodoro reminders when LifeUp in running background or when the phone screen closed.
 - LifeUp app widget might not working properly on some home screen app and OS.
@@ -27,13 +39,17 @@ It is recommended to perform the following operations after encountering actual 
 
 1. Check your BATTERT options in the system SETTINGS app and disable the battery optimization for LifeUp.
 2. Lock LifeUp in your multitasking pane.
-3. Enable the `Quick Add notification` in the Task Setting screen.
+3. (Optional but may help) Enable the `Quick Add notification` in the Task Setting screen.
+4. When using functions such as Pomodoro and Reminder, make sure that you have turned on the LifeUp notifications, and have not turned on Do Not Disturb and special power saving modes.
 
+---
 
-### Change Reminder
+### App Widgets not working
 
-**You can consider switching to the system calendar APP reminder (this will require calendar read and write permissions) in the `Settings` - `Tasks Settings` page.**
-
-After the switching, please check whether the system calendar APP is successfully inserted into the event.
-
-LifeUp is only responsible for inserting events, and subsequent reminders will be implemented by the system calendar APP. Please confirm the relevant configuration of the system calendar APP.
+1. First open LifeUp and let it run normally
+2. Re-enable a new app widget (if abnormal, you can try several times)
+3. If it expires after a period of time, please configure it according to https://wiki.lifeupapp.fun/en/#/guide/background_running
+4. If you are using a non-system launcher app, please switch to the system launcher first.
+5. If you are using a non-default system theme, try switching back to the system default theme (some themes will break  app widgets )
+6. If none of the above works, please try restarting the phone
+7. Try changing other launcher programs to rule out the problem from the launcher app.

@@ -4,14 +4,14 @@
 
 ![Icon](_media/icon.png ':size=6%')
 
-**LifeUp** is a gamified To-Do List (Tasks List) application which has integrated many well-designed interesting gaming-related features, aims to bring the *Role Playing element* into and inspirit your life.
+**LifeUp** is a gamified To-Do List (Tasks List) Android application which has integrated many well-designed interesting gaming-related features, aims to bring the element of *Role Playing Game* into and inspirit your life.
 
-It's a no other To-Do List which does not only write and tick, LifeUp awards you with `Experience Point` and `Currency` by considering the importance of your completed task.
+It's a no other To-Do List, which does not only write and tick. LifeUp awards users with `Experience Point` and `Coins` by considering both the importance and difficulity of your completed task.
   * With the certain `Exp. Pt`, the `Level` of your character's `Attribute` could be upgraded. 
-  * With the `Currency`, you could purchase pre-defined `Award Items` from the `Goods Store`.
-In additional, `Achievements` could be completed with certain conditions, to get more awards.
+  * With the `Coins`, you could purchase pre-defined `Award Items` from the `Goods Store`.
+In additional, `Achievements` could be completed with certain conditions, to light up your medals and achieve more awards.
 
-Features like `Feelings`, `Community`, `Pomodoro` has built-in and more features are coming to LifeUp!
+Further more, features like `Commenting`, `Community`, `Pomodoro` has already built-in, and more features are coming to LifeUp constantly!
 
 > **LifeUp** is currently maintained by a tiny team which contains only 2 programmers and 1 tester, but we would make *100% effort* to process your feedback, keep the project in active and make LifeUp better with the whole community.
 
@@ -21,82 +21,116 @@ Features like `Feelings`, `Community`, `Pomodoro` has built-in and more features
 
 ![激励体系](./introduction/_media/readme/motivation.jpg ':size=100%')
 
-The `System of Motivation` was designed by the `Sense of Ceremony`
+The design of `System of Motivation` was based on the `Sense of Ceremony`. The main features of LifeUp are associated to each other with strong relationships.
+
+The `Level System`only inspirits you most when you take concern to the `Exp. Pt` and `Upgrading`.
+
+The `Goods Store` makes the best effect on you, once you
+would follow the `Reward System` designed by yourself.
+
+**Certainly, some modules might do not meeting your demand, you could freely deprecate that module without breaking any user experience**, also you could start with some certain modules you focused on, and explore other modules step by step to make the most usage of LifeUp.
 
 ## Get Started
-Now available in Google Play as a paid application, which you can get it with one-time cost.
-There is no In-App-Purchase or Ad in the app.
+LifeUp is now available in **Google Play** as a paid application, which means you can get it with one-time cost, without any further subscription fee, In-App-Purchase or Ads.
 
 <a href='https://play.google.com/store/apps/details?id=net.sarasarasa.lifeup&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' target="_blank"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" style="
     height: 100px;
 "></a>
 
-If you feel dissatisfied after the purchase, feel free to contact the developer at any time to request a refund.
+If you feel unsatisfied after the purchase, feel free to contact the developer team at any time to request a refund.
 
 
 ## Features
 
-- **No Ads, No In-App Purchase**
+🚫 **No Ads, No In-App Purchase**
 
-- **Beautiful Material Design UI**
+There won't be Ads in any form to cause interruption.
+Only One-Time payment would provide 100% feature access
 
-- **Full basic To-Do Functions**
+❤️ **Beautiful Material Design UI**
 
-Remark, Reminder, Start Time, Deadline , Repeat, Target Times, History and List.
+The UI is composed with the latest ``Material Design``, which would impress you with **Simple** and **Fresh** experience. 
 
-✨ **Gamification Functions**
+👓 **Simple but Not Naive**
 
-6 Attributes (Including Strength, Intelligence , Charm, Endurance, Vitality and Creative), EXP, Level, Coin, Random Coin
+LifeUp takes the **minimum amount of storage** on the device, without any redundant data. 
 
-What's more, You can customize the Attributes Icon and Text as you like.
+All user data could be easily **Backuped Locally**, or **Automatically Uploaded** to the **Cloud Storage**, including `Google Drive`, `Dropbox` or `WebDAV server`, in the convenience of data restoring or device migration.
 
-🎨 **Easy-to-Use**
+<!-- - **Full basic To-Do Functions** Google Play 没有试用版
 
-EXP and Coin reward can be auto calculated by Urgency and Difficulty Degree that you set up.
+Remark, Reminder, Start Time, Deadline , Repeat, Target Times, History and List. -->
+
+✨ **Gamified Character Atrributes**
+
+User has 6 Preset Attributes in LifeUp, including `Strength`, `Intelligence` , `Charm`, `Endurance`, `Vitality` and `Creative`. Every task in LifeUp could be assigned with one ore more attributes to gain the corresponding `EXP`. 
+Each Attribute would be **upgraded** with constantly gaining `EXP`, to make users' statistic more intuitive.
+
+Moreover, You can **Customize** the Attributes as you like, even every `Icon`.
 
 🏆 **Achievements**
 
-Up to 57 built-in Achievements waiting for you to unlock.
-What's more, you can create your own achievements which can be setup to auto calculate the progress.
+Up to 57 built-in Achievements are waiting for you to unlock.
+
+Too Easy? You can create your own achievements which can **catch your progress** with **customized conditions**!
 
 🎁 **Shop**
 
-Put items you want with the price you decide on shelves. Earn the coin by finishing tasks. Purchase the items and then USE them in your Inventory.
+Gonna buy a bubble tea? Do some pushups to get it!
+
+Define and put `Goods` on the shelf, with the price you think it worths. Earn the `Coins` by finishing tasks. **Saving your coins to purchase the goods you want**.
 
 ⏰ **Pomodoro**
 
-As a pomodoro timer is completed, you can receive a virtual tomato reward.
-Decide whether to eat or sell tomatoes?
+Set the `Pomodoro` when you feel hard to concentrate!
+Once a working period is completed, you can win yourself a `Tomato`!
+What a `Tomato` does? How much `Coins` it worths? That's all your decision!
 
 🎲 **Custom item effects: loot boxes**
 
-You can customize the effect of the shop item.
-For example you can create your own Loot boxes to get reward randomly.
+You can `customize` the effect of the `Goods` in the shop.
+
+Like any other Mobile Games, you can create your own `Loot Boxes` to get `Random Goods` from your pool.
+
+~~(God of Gacha Whispering)~~
 
 ⚽ **Various Ways to Gain EXP**
 
-You can even gain STRENGTH EXP by your daily steps,
-or maybe get ENDURANCE EXP by eating your tomatoes gained from the Pomodoro timer.
+You could collect `STRENGTH EXP` from the `step counter` everyday.
+
+Also `Tomatoes` from the `Pomodoro Timer` could increase your `ENDURANCE EXP`
 
 🤝 **Community**
 
-Join the team you like, complete team task, submit your activity and so on.
+Walking alone is hard to everyone, why not do it together?
 
-- **Feelings**
+`Create`, or `Join` a `Team` you like, complete tasks commited from the team, submit your activity and build connections to your teammate.
 
-Record your complete feelings by text and pictures.
+💭 **Feelings**
 
-- **Widget**
+Got some words but no one to share?
 
-App Widget is available, tasks can be managed from the Home Screen.
+Write your `Comment` down with some photo when complete every task. 
 
-- **Theme Color**
+(Shhhhh, don't tell anyone, it's your own memory)
 
-23 built-in color themes
+📅 **Widget**
 
-- **Dark Theme**
+App Widget is available!
 
-- **Lots of Settings**
+**Access your Tasks** from the Home Screen!
+
+🎨 **Theme Color**
+
+23 built-in `Color Themes` to choose from. 
+
+Make your board looks bit different today!
+
+🌙 **Dark Theme**
+
+Don't flash your eyes in the night
+
+- **More Customization**
 
 Such as EXP punishment factor/coin punishment factor.
 Hiding any module that you don't need.
